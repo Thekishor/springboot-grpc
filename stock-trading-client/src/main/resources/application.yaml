@@ -1,0 +1,5 @@
+grpc:
+  client:
+    stock_client:
+      address: "static://localhost:9090"
+      negotiation-type: PLAINTEXT
