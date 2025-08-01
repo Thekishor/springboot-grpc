@@ -21,7 +21,8 @@ public class StockTradingClientApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		//stockClientService.subscribeStockPrice("GOOGL");
-		stockClientService.placeBulkOrders();
+		//stockClientService.placeBulkOrders();
+		stockClientService.startLiveTrading();
 	}
 
 	/*@Override
